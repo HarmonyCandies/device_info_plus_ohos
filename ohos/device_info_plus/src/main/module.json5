@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "device_info_plus",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

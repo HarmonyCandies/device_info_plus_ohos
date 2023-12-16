@@ -1,0 +1,11 @@
+{
+  name: 'entry',
+  version: '1.0.0',
+  description: 'Please describe the basic information.',
+  main: '',
+  author: '',
+  license: '',
+  dependencies: {
+    '@ohos/device_info_plus_ohos': 'file:./har/device_info_plus_ohos.har',
+  },
+}
