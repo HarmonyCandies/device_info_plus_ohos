@@ -46,7 +46,7 @@ export default class DeviceInfoPlusPlugin implements FlutterPlugin, MethodCallHa
       // deprecated
       // infoMap.set('hardwareProfile', deviceInfo.hardwareProfile);
       // infoMap.set('serial', deviceInfo.serial);
-      infoMap.set('serial', '');
+      // infoMap.set('serial', '');
       infoMap.set('bootloaderVersion', deviceInfo.bootloaderVersion);
       infoMap.set('abiList', deviceInfo.abiList);
       infoMap.set('securityPatchTag', deviceInfo.securityPatchTag);
@@ -67,7 +67,7 @@ export default class DeviceInfoPlusPlugin implements FlutterPlugin, MethodCallHa
       infoMap.set('buildTime', deviceInfo.buildTime);
       infoMap.set('buildRootHash', deviceInfo.buildRootHash);
       // infoMap.set('udid', deviceInfo.udid);
-      infoMap.set('udid', '');
+      // infoMap.set('udid', '');
       infoMap.set('distributionOSName', deviceInfo.distributionOSName);
       infoMap.set('distributionOSVersion', deviceInfo.distributionOSVersion);
       infoMap.set('distributionOSApiVersion', deviceInfo.distributionOSApiVersion);
