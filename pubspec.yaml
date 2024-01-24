@@ -3,10 +3,10 @@ description: OpenHarmony implementation of the device_info_plus plugin.
 version: 0.0.1
 repository: https://github.com/harmonycandies/device_info_plus_ohos
 topics:
-  - device_info
-  - device_info_plus
+  - device-info
+  - device-info-plus
   - ohos
-  - harmony_os
+  - harmony-os
   - openharmony
 
 environment:
