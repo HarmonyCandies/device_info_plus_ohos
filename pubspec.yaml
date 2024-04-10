@@ -1,6 +1,6 @@
 name: device_info_plus_ohos
 description: OpenHarmony implementation of the device_info_plus plugin.
-version: 0.0.3
+version: 0.0.4
 repository: https://github.com/harmonycandies/device_info_plus_ohos
 topics:
   - device-info
