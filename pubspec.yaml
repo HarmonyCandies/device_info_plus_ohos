@@ -1,6 +1,6 @@
 name: device_info_plus_ohos
 description: OpenHarmony implementation of the device_info_plus plugin.
-version: 0.0.4
+version: 0.0.5
 repository: https://github.com/harmonycandies/device_info_plus_ohos
 topics:
   - device-info
@@ -11,7 +11,7 @@ topics:
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
-  flutter: ">=3.7.12"
+  flutter: ">=3.7.0"
 
 dependencies:
   flutter:

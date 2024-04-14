@@ -1,3 +1,7 @@
+## 0.0.5
+
+* flutter: ">=3.7.0"
+
 ## 0.0.4
 
 * Update hvigor to 4.1.2
