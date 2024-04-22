@@ -72,6 +72,7 @@ export default class DeviceInfoPlusPlugin implements FlutterPlugin, MethodCallHa
       infoMap.set('distributionOSVersion', deviceInfo.distributionOSVersion);
       infoMap.set('distributionOSApiVersion', deviceInfo.distributionOSApiVersion);
       infoMap.set('distributionOSReleaseType', deviceInfo.distributionOSReleaseType);
+      infoMap.set('isPhysicalDevice', !this.isEmulator(infoMap));
       result.success(infoMap)
     }
     else if (call.method == "getAccessUDIDInfo") {
@@ -83,5 +84,9 @@ export default class DeviceInfoPlusPlugin implements FlutterPlugin, MethodCallHa
     else {
       result.notImplemented()
     }
+  }
+
+  isEmulator(infoMap: HashMap<string, ESObject>): Boolean {
+    return infoMap.hasValue('emulator') || deviceInfo.versionId.includes('emulator') || deviceInfo.displayVersion.includes('emulator');
   }
 }

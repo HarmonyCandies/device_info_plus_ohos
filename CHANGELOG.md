@@ -1,3 +1,7 @@
+## 0.0.6
+
+* add isPhysicalDevice
+
 ## 0.0.5
 
 * flutter: ">=3.7.0"

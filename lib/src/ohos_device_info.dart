@@ -41,6 +41,7 @@ class OhosDeviceInfo extends BaseDeviceInfo {
     required this.distributionOSVersion,
     required this.distributionOSApiVersion,
     required this.distributionOSReleaseType,
+    required this.isPhysicalDevice,
   }) : super(data);
 
   factory OhosDeviceInfo.fromMap(Map<String, dynamic> map) {
@@ -80,6 +81,7 @@ class OhosDeviceInfo extends BaseDeviceInfo {
       distributionOSVersion: map['distributionOSVersion'] ?? '',
       distributionOSApiVersion: map['distributionOSApiVersion'] ?? 0,
       distributionOSReleaseType: map['distributionOSReleaseType'] ?? '',
+      isPhysicalDevice: map['isPhysicalDevice'] == true,
     );
   }
 
@@ -225,6 +227,9 @@ class OhosDeviceInfo extends BaseDeviceInfo {
   /// 发行版系统类型。
   final String distributionOSReleaseType;
 
+  /// `false` if the application is running in an emulator, `true` otherwise.
+  final bool isPhysicalDevice;
+
   Map<String, dynamic> toJson() {
     return {
       'deviceType': deviceType,
@@ -261,6 +266,7 @@ class OhosDeviceInfo extends BaseDeviceInfo {
       'distributionOSVersion': distributionOSVersion,
       'distributionOSApiVersion': distributionOSApiVersion,
       'distributionOSReleaseType': distributionOSReleaseType,
+      'isPhysicalDevice': isPhysicalDevice,
     };
   }
 }

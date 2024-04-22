@@ -1,6 +1,5 @@
-import FlutterEngine from '@ohos/flutter_ohos/src/main/ets/embedding/engine/FlutterEngine';
-import Log from '@ohos/flutter_ohos/src/main/ets/util/Log';
-import DeviceInfoPlusPlugin from '@ohos/device_info_plus_ohos'
+import { FlutterEngine, Log } from '@ohos/flutter_ohos';
+import DeviceInfoPlusPlugin from 'device_info_plus_ohos';
 
 /**
  * Generated file. Do not edit.

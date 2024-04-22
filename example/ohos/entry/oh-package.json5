@@ -6,6 +6,6 @@
   author: '',
   license: '',
   dependencies: {
-    '@ohos/device_info_plus_ohos': 'file:./har/device_info_plus_ohos.har',
+    device_info_plus_ohos: 'file:./har/device_info_plus_ohos.har',
   },
 }
