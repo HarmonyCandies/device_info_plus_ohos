@@ -13,5 +13,5 @@
 * limitations under the License.
 */
 
-import DeviceInfoPlusPlugin from './src/main/ets/components/plugin/DeviceInfoPlusPlugin';
+import DeviceInfoPlusPlugin from './src/main/ets/components/plugin/DeviceInfoPlusOhosPlugin';
 export default DeviceInfoPlusPlugin;

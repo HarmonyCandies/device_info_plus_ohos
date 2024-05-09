@@ -1,6 +1,6 @@
 {
   "module": {
-    "name": "device_info_plus",
+    "name": "device_info_plus_ohos",
     "type": "har",
     "deviceTypes": [
       "default",
