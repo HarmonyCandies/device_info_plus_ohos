@@ -1,3 +1,7 @@
+## 0.0.8
+
+* Add ODID: Anonymous Device Identifier associated with Developer ID
+
 ## 0.0.7
 
 * Update plugin structure
