@@ -68,6 +68,7 @@ export default class DeviceInfoPlusPlugin implements FlutterPlugin, MethodCallHa
       infoMap.set('buildRootHash', deviceInfo.buildRootHash);
       // infoMap.set('udid', deviceInfo.udid);
       // infoMap.set('udid', '');
+      infoMap.set('odid', deviceInfo.ODID);
       infoMap.set('distributionOSName', deviceInfo.distributionOSName);
       infoMap.set('distributionOSVersion', deviceInfo.distributionOSVersion);
       infoMap.set('distributionOSApiVersion', deviceInfo.distributionOSApiVersion);

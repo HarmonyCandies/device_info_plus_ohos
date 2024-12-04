@@ -37,6 +37,7 @@ class OhosDeviceInfo extends BaseDeviceInfo {
     required this.buildTime,
     required this.buildRootHash,
     // required this.udid,
+    required this.odid,
     required this.distributionOSName,
     required this.distributionOSVersion,
     required this.distributionOSApiVersion,
@@ -77,6 +78,7 @@ class OhosDeviceInfo extends BaseDeviceInfo {
       buildTime: map['buildTime'] ?? '',
       buildRootHash: map['buildRootHash'] ?? '',
       // udid: map['udid'] ?? '',
+      odid: map['odid'] ?? '',
       distributionOSName: map['distributionOSName'] ?? '',
       distributionOSVersion: map['distributionOSVersion'] ?? '',
       distributionOSApiVersion: map['distributionOSApiVersion'] ?? 0,
@@ -210,6 +212,10 @@ class OhosDeviceInfo extends BaseDeviceInfo {
   /// Device Udid.
   /// 设备Udid。
   // final String udid;
+
+  /// Anymous Device ID
+  /// 匿名设备ID。
+  final String odid;
 
   /// Distribution OS name.
   /// 发行版系统名称。
